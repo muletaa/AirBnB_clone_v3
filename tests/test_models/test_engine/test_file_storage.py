@@ -138,4 +138,4 @@ class TestFileStorage(unittest.TestCase):
         state = State()
         storage.new(state)
         state_id = state.to_dict()['id']
-        self.assertTrue(storage.get(State, state_id) is state)
+        self.assertTrue(storage.get(State, state_id) is state:)
